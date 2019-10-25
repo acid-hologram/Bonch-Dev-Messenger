@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">Bonch Dev Messenger</string>
+    <string name="app_name">Bonch.Dev Messenger</string>
+    <string name="Enter">Войти</string>
+    <string name="RegistrationVerb">Зарегестрироваться</string>
+    <string name="Registration">Регистрация</string>
+    <string name="Mail">Почта</string>
+    <string name="Password">Пароль</string>
+    <string name="confirm_password">Подтвердите пароль</string>
+    <string name="confirm_mail">Подтвердить почту</string>
+    <string name="change_password">Поменять пароль</string>
+    <string name="old_password">Старый пароль</string>
+    <string name="new_password">Новый пароль</string>
+    <string name="exit">Выйти</string>
+    <string name="user_name">Игорь</string>
+    <string name="login">Логин</string>
+    <string name="change">Поменять</string>
 </resources>

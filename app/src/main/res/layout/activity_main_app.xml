@@ -6,4 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".UI.activities.MainAppActivity">
 
+    <FrameLayout
+        android:id="@+id/fragment_chat"
+        android:layout_width="377dp"
+        android:layout_height="615dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_profile"
+        android:layout_width="414dp"
+        android:layout_height="612dp"
+        tools:layout_editor_absoluteY="120dp">
+
+    </FrameLayout>
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

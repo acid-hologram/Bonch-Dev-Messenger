@@ -4,11 +4,16 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+import bonch.dev.school.R
 
-class ChatFragmenst {
+class PasswordFragment: Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {}
+    ): View? {
+        val view = inflater.inflate(R.layout.password_change, container, false)
+        return  view
+    }
 }
