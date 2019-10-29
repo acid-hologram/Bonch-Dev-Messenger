@@ -11,7 +11,7 @@
     <string name="old_password">Старый пароль</string>
     <string name="new_password">Новый пароль</string>
     <string name="exit">Выйти</string>
-    <string name="user_name">Игорь</string>
+    <string name="user_name">Ваше имя</string>
     <string name="login">Логин</string>
     <string name="change">Поменять</string>
 </resources>

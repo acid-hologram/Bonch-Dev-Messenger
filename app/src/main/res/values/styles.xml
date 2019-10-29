@@ -3,23 +3,23 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">#FFA500</item>
-        <item name="colorPrimaryDark">#FFA500</item>
-        <item name="colorAccent">#FFA500</item>
+        <item name="colorPrimary">#FFFF8800</item>
+        <item name="colorPrimaryDark">#FFFF8800</item>
+        <item name="colorAccent">#FFFF8800</item>
     </style>
 
     <style name="LogTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorAccent</item>
-        <item name="colorPrimaryDark">#FFA500</item>
-        <item name="colorAccent">#FFA500</item>
+        <item name="colorPrimaryDark">#FFFF8800</item>
+        <item name="colorAccent">#FFFF8800</item>
     </style>
 
     <style name="FragmentTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorAccent</item>
-        <item name="colorPrimaryDark">#FFA500</item>
-        <item name="colorAccent">#FFA500</item>
+        <item name="colorPrimaryDark">#FFFF8800</item>
+        <item name="colorAccent">#FFFF8800</item>
     </style>
 
 
