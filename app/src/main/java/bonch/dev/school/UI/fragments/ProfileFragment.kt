@@ -11,7 +11,7 @@ import bonch.dev.school.UI.activities.MainAppActivity
 
 class ProfileFragment: Fragment() {
 
-    private lateinit var ChangePassowrd: Button
+    private lateinit var changePasswordButton: Button
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -19,10 +19,8 @@ class ProfileFragment: Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_profile, container, false)
-        ChangePassowrd = view.findViewById(R.id.change_password_button)
-
-        ChangePassowrd.setOnClickListener{(context as MainAppActivity).attachChangePasswordFragment()}
-
+        changePasswordButton = view.findViewById(R.id.change_password_button)
+        changePasswordButton.setOnClickListener{ PasswordFragment().show(fragmentManager,"PasswordFragment")}
         return  view
     }
 }
