@@ -20,7 +20,7 @@ class ProfileFragment: Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_profile, container, false)
         changePasswordButton = view.findViewById(R.id.change_password_button)
-        changePasswordButton.setOnClickListener{ PasswordFragment().show(fragmentManager,"PasswordFragment")}
+        changePasswordButton.setOnClickListener{ PasswordFragment().show(fragmentManager!!,"PasswordFragment")}
         return  view
     }
 }
