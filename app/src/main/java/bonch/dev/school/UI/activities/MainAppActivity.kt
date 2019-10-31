@@ -41,7 +41,7 @@ class MainAppActivity : AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        menuInflater.inflate(R.menu.activity_main_drawer, menu) // (R.menu.main, menu)
+        menuInflater.inflate(R.menu.activity_main_drawer, menu)
         return true
     }
 
@@ -50,15 +50,4 @@ class MainAppActivity : AppCompatActivity() {
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
 
-   /* fun attachChatFragment() {
-        fm.beginTransaction().add(R.id.fragment_chat, ChatFragment()).commit()
-    }
-
-    fun attachProfileFragment() {
-        fm.beginTransaction().replace(R.id.fragment_chat, ProfileFragment()).addToBackStack("fragment_chat").commit()
-    }
-
-    fun attachChangePasswordFragment() {
-        fm.beginTransaction().add(R.id.password_change, PasswordFragment()).addToBackStack("password_change").commit()
-    } */
 }
